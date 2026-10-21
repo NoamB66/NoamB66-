@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4F1EA"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="24dp">
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="סיפורו של רמי דוידיאן"
+            android:textSize="26sp"
+            android:textColor="#23395B"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:padding="12dp" />
+
+        <ImageView
+            android:id="@+id/ivMemory"
+            android:layout_width="385dp"
+            android:layout_height="173dp"
+            android:layout_margin="16dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/rami" />
+
+        <TextView
+            android:id="@+id/tvMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:gravity="center"
+            android:padding="12dp"
+            android:text="רמי דוידיאן יצא בבוקר ה-7 באוקטובר 2023 מביתו שבפטיש אל אזור המסיבה ברעים, בעקבות שיחת טלפון שביקשה עזרה בחילוץ צעירים.\nבמשך שעות ארוכות, תחת אש תופת של מחבלים ובתושייה יוצאת דופן, הוא נכנס ויצא שוב ושוב משטח האסון ברכבו הפרטי.\nבאחד המקרים הבולטים הוא התחזה לאיש חמאס בערבית והצליח לשכנע מחבלים לשחרר צעירה שהחזיקו בשבי.\nבמעשי הגבורה המופלאים שלו הציל רמי את חייהם של עשרות רבות של צעירים וצעירות."
+            android:textColor="#333333"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tvPersonalChoice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            android:padding="12dp"
+            android:textColor="#23395B"
+            android:textSize="16sp"
+            android:textStyle="italic"
+            android:text="בחרתי בסיפור של רמי דוידיאן כיוון שכששמעתי את הסיפור שלו בפעם הראשונה הרגשתי גאווה ורגש ואפילו עשיתי עליו פרזנטציה בכיתה לשיעור. הסיפור של רמי הביא לי המון השראה ואני שמח שיצא לי ללמוד על הסיפור שלו." />
+
+    </LinearLayout>
+</ScrollView>
