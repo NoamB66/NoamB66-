@@ -6,7 +6,11 @@
     android:layout_height="match_parent"
     android:background="#F4F1EA"
     tools:context=".MainActivity">
-
+<Switch
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+android:id="@+id/Verity"
+    android:text="Lovity"/>
     <LinearLayout
         android:id="@+id/main"
         android:layout_width="match_parent"
