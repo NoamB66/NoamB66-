@@ -6,11 +6,7 @@
     android:layout_height="match_parent"
     android:background="#F4F1EA"
     tools:context=".MainActivity">
-<Switch
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-android:id="@+id/Verity"
-    android:text="Lovity"/>
+
     <LinearLayout
         android:id="@+id/main"
         android:layout_width="match_parent"
@@ -18,6 +14,33 @@ android:id="@+id/Verity"
         android:orientation="vertical"
         android:gravity="center_horizontal"
         android:padding="24dp">
+
+        <Switch
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:minWidth="48dp"
+            android:minHeight="48dp"
+            android:id="@+id/Verity"
+            android:text="Lovity"/>
+
+        <TextView
+            android:id="@+id/tvUserName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/user_name"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/btnSendMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/send_message" />
+
+        <Button
+            android:id="@+id/btnFollow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/follow" />
 
         <TextView
             android:id="@+id/tvTitle"
