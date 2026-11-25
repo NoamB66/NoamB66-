@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btnSendMessage.setOnClickListener(this);
         btnFollow.setOnClickListener(this);
     }
-
+//d
     @Override
     public void onClick(View v) {
         if (v.getId() == R.id.btnSendMessage) {
