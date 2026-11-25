@@ -21,7 +21,7 @@
             android:minWidth="48dp"
             android:minHeight="48dp"
             android:id="@+id/Verity"
-            android:text="Lovity"/>
+            android:text="Verity"/>
 
         <TextView
             android:id="@+id/tvUserName"
